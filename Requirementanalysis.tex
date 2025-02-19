@@ -1,0 +1,72 @@
+\chapter{REQUIREMENT ANALYSIS}
+\section{Functional Requirements}
+These are the specific behaviors and functionalities in the system implemented to meet user needs.
+\begin{enumerate}
+    \item \textbf{User Management}:
+    \begin{itemize}
+        \item Allow users to register, log in, and manage their profiles.
+        \item Provide role-based access control (e.g., admin vs. regular users).
+    \end{itemize}
+    \item \textbf{Goal Management}:
+    \begin{itemize}
+        \item Enable users to set stock price goals.
+        \item Store and retrieve user-defined goals.
+    \end{itemize}
+    \item \textbf{Prediction System}:
+    \begin{itemize}
+        \item Use machine learning models to predict future stock prices.
+        \item Display prediction results with accuracy metrics.
+    \end{itemize}
+    \item \textbf{Notifications}:
+    \begin{itemize}
+        \item Notify users when their goal prices are reached or significant market changes occur.
+        \item Provide real-time notifications via push notifications or email.
+    \end{itemize}
+    \item \textbf{Visualization}:
+    \begin{itemize}
+        \item Display interactive charts for historical and predicted stock trends.
+        \item Provide dashboards for tracking multiple stocks.
+    \end{itemize}
+    \item \textbf{API Integration}:
+    \begin{itemize}
+        \item Integrate with external APIs to fetch stock market data.
+        \item Ensure seamless handling of API responses for real-time updates.
+    \end{itemize}
+\end{enumerate}
+
+\section{Non-Functional Requirements}
+These are the qualities and constraints the system  follows to ensure usability, reliability, and performance.
+\begin{enumerate}
+    \item \textbf{Performance}:
+    \begin{itemize}
+        \item Handle real-time stock data updates with minimal latency.
+    \end{itemize}
+    \item \textbf{Scalability}:
+    \begin{itemize}
+        \item Scale services independently to manage increasing users or API data load.
+    \end{itemize}
+    \item \textbf{Reliability}:
+    \begin{itemize}
+        \item Ensure system uptime with minimal disruptions.
+        \item Handle API failures gracefully and retry fetching data when necessary.
+    \end{itemize}
+    \item \textbf{Usability}:
+    \begin{itemize}
+        \item Provide an intuitive and user-friendly interface for all features.
+    \end{itemize}
+    \item \textbf{Security}:
+    \begin{itemize}
+        \item Encrypt sensitive user data (e.g., passwords, financial information).
+        \item Implement secure authentication mechanisms (e.g., OAuth, JWT).
+    \end{itemize}
+    \item \textbf{Data Integrity}
+    \begin{itemize}
+        \item Ensure accuracy and consistency of stock data, user goals, and predictions
+    \end{itemize}
+    \item \textbf{Maintainability}:
+    \begin{itemize}
+        \item Maintain comprehensive documentation for future enhancements.
+        % \item Use modular code design and microservices for easier updates and debugging.
+        
+    \end{itemize}
+\end{enumerate}
